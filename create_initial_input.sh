@@ -74,4 +74,4 @@ echo "Non-ambiguous SNP nr: $nonamb_snp_nr"
 echo "Final SNP nr after QC: $qc_snp_nr"
 
 #Cleanup
-#rm tmp_*
+rm tmp_*
