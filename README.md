@@ -73,12 +73,12 @@ provided password.
 
 ### To download and unzip files directly to a Seven Bridges Biodata Catalyst project
 
-Use unzip\_imp\_server\_results.cwl to create a Seven Bridges tool. The docker
+Use get\_imp\_server\_results.cwl to create a Seven Bridges tool. The docker
 image in the Dockerfile describes the compute environment required for running
 the tool. 
 
 The imputation server will send an email with a download link once the
-imputations are done. Use the unzip\_imp\_server\_results.cwl tool to download and unzip files. 
+imputations are done. Use the get\_imp\_server\_results.cwl tool to download and unzip files. 
 The URL from the example curl command should be used to set the curl\_url parameter, 
 and the provided password from the email shoud be used for the zip\_pwd parameter. 
 
