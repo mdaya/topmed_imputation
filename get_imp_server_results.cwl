@@ -1,6 +1,7 @@
 class: CommandLineTool
 cwlVersion: v1.0
 label: unzip_imp_server_results
+doc: A simple tool to download and unzip files from the Michigan imputation server
 $namespaces:
   sbg: https://sevenbridges.com
 
